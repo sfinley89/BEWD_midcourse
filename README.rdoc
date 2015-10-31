@@ -1,15 +1,15 @@
-== README ==
+|| README || 
+ <br /> <br />
+1) Get application-programming interface (API) from https://market.mashape.com/ismaelc/yoda-speak <br /> <br />
+2) mkdir Yoda <br /> <br />
+3) cd Yoda <br /> <br />
+4) git clone https://github.com/sfinley89/BEWD_midcourse.git <br /> <br />
+5) cd BEWD_midcourse <br /> <br />
+6) from terminal, set environmental variable <br /> <br />
+	export YODA_KEY="YOUR-API-KEY-GOES-HERE" <br /> <br />
+7) rails s <br /> <br />
 
-1) Get application-programming interface (API) from https://market.mashape.com/ismaelc/yoda-speak
-2) mkdir Yoda
-3) cd Yoda
-4) git clone https://github.com/sfinley89/BEWD_midcourse.git
-5) cd BEWD_midcourse
-6) from terminal, set environmental variable 
-	export YODA_KEY="YOUR-API-KEY-GOES-HERE"
-7) rails s 
-
-May the force be with you.
+May the force be with you. <br /> <br />
 
 MVP:
 In product development, the minimum viable product (MVP) is the product with the highest return on investment versus risk.
