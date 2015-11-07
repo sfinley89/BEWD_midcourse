@@ -4,7 +4,15 @@ source 'https://rubygems.org'
 gem 'unirest', '~> 1.1', '>= 1.1.2'
 
 # HTTParty
-#gem 'httparty', '~> 0.13.7'
+gem 'httparty', '~> 0.13.7'
+
+gem 'json', '~> 1.8', '>= 1.8.3'
+
+gem 'responders', '~> 2.0'
+
+ # Gem from https://rubygems.org/gems/giphy/versions/3.0.0
+ # gifs https://github.com/sebasoga/giphy
+gem 'giphy', '~> 3.0'
 
 # Geocoding https://github.com/alexreisner/geocoder
 gem 'geocoder'

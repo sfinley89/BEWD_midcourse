@@ -3,9 +3,20 @@ class WelcomeController < ApplicationController
   
   def index
   	@ask 
+
+        url = "http://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=yoda" 
+        resp = Net::HTTP.get_response(URI.parse(url)) 
+        buffer = resp.body 
+        @result = JSON.parse(buffer)
+        
+
   end
 
   def ask
+    url = "http://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=yoda" 
+        resp = Net::HTTP.get_response(URI.parse(url)) 
+        buffer = resp.body 
+        @result = JSON.parse(buffer)
   end
 
   
@@ -22,6 +33,12 @@ class WelcomeController < ApplicationController
    		"X-Mashape-Key" => ENV["YODA_KEY"],
    		"Accept" => "text/plain",
   		}
+
+      url = "http://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=yoda" 
+        resp = Net::HTTP.get_response(URI.parse(url)) 
+        buffer = resp.body 
+        @result = JSON.parse(buffer)
+
   end
   
 end
